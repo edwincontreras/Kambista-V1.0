@@ -1,0 +1,186 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2019-04-15T14:48:26.336Z",
+    "end": "2019-04-15T14:50:56.366Z",
+    "duration": 150030,
+    "testsRegistered": 3,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "5c3413cb-d27b-4f86-9c17-c1dac8983b66",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "0517203c-49ee-4125-a8ff-12a2e22f695a",
+        "title": "Ingresar al Home",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "Ingresar al Home \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 3,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "eb9575b9-4a55-44c9-8337-3071b1adda07",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "Ingresar al Home \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 4849,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "051a37d0-a824-49da-be83-e29fb5907666",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "Ingresar al Home \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 1,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1aef2ce6-c47f-4698-8e9d-c9bfe4877812",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "Ingresar al Home \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 476,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "518ddaf5-472d-4017-9966-defd6790431b",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "Ingresar a la web Kambista {\"email\":\"mared20@gmail.com\",\"password\":\"ernesto001\"} @Home @FlujoBasico",
+            "fullTitle": "Ingresar al Home Ingresar a la web Kambista {\"email\":\"mared20@gmail.com\",\"password\":\"ernesto001\"} @Home @FlujoBasico",
+            "timedOut": false,
+            "duration": 43963,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "context": "\"Ingresar_a_ed12c3e8-cd14-4b66-b8a1-4dfe5ee57467.failed.png\"",
+            "code": "runSteps(exampleSteps)",
+            "err": {
+              "message": "Error: Field \"{\"name\":\"contraseña\"}\" was not found by text|CSS|XPath",
+              "estack": "Field \"{\"name\":\"contraseña\"}\" was not found by text|CSS|XPath\n\nScenario Steps:\n\n- I.fillField({\"name\":\"contraseña\"}, \"ernesto001\") at Object.Iniciarsesion (src\\features\\Home\\Home.module.js:22:19)\n- I.fillField({\"name\":\"email\"}, \"mared20@gmail.com\") at Object.Iniciarsesion (src\\features\\Home\\Home.module.js:21:19)\n- I.click({\"id\":\"start\"}) at Object.Inicio (src\\features\\Home\\Home.module.js:16:19)\n- I.amOnPage(\"https://kambista.com/\") at Object.Inicio (src\\features\\Home\\Home.module.js:15:19)\n- I.amOnPage(\"/\") at Object.Constructor (src\\features\\Home\\Home.module.js:10:19)\n\n"
+            },
+            "isRoot": false,
+            "uuid": "ed12c3e8-cd14-4b66-b8a1-4dfe5ee57467",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Ingresar a la web Kambista {\"email\":\"mared20@gmail.com\",\"password\":\"ernesto11\"} @Home @FlujoBasico",
+            "fullTitle": "Ingresar al Home Ingresar a la web Kambista {\"email\":\"mared20@gmail.com\",\"password\":\"ernesto11\"} @Home @FlujoBasico",
+            "timedOut": false,
+            "duration": 42841,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "context": "\"Ingresar_a_b4075e59-322c-40e8-b97f-2bd7e1006fc9.failed.png\"",
+            "code": "runSteps(exampleSteps)",
+            "err": {
+              "message": "Error: Field \"{\"name\":\"contraseña\"}\" was not found by text|CSS|XPath",
+              "estack": "Field \"{\"name\":\"contraseña\"}\" was not found by text|CSS|XPath\n\nScenario Steps:\n\n- I.fillField({\"name\":\"contraseña\"}, \"ernesto11\") at Object.Iniciarsesion (src\\features\\Home\\Home.module.js:22:19)\n- I.fillField({\"name\":\"email\"}, \"mared20@gmail.com\") at Object.Iniciarsesion (src\\features\\Home\\Home.module.js:21:19)\n- I.click({\"id\":\"start\"}) at Object.Inicio (src\\features\\Home\\Home.module.js:16:19)\n- I.amOnPage(\"https://kambista.com/\") at Object.Inicio (src\\features\\Home\\Home.module.js:15:19)\n- I.amOnPage(\"/\") at Object.Constructor (src\\features\\Home\\Home.module.js:10:19)\n\n"
+            },
+            "isRoot": false,
+            "uuid": "b4075e59-322c-40e8-b97f-2bd7e1006fc9",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Ingresar a la web Kambista {\"email\":\"mared20@gmail.com\",\"password\":\"\"} @Home @FlujoBasico",
+            "fullTitle": "Ingresar al Home Ingresar a la web Kambista {\"email\":\"mared20@gmail.com\",\"password\":\"\"} @Home @FlujoBasico",
+            "timedOut": false,
+            "duration": 42149,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "context": "\"Ingresar_a_9e71e0eb-eaec-4db7-bb72-83f707fa094e.failed.png\"",
+            "code": "runSteps(exampleSteps)",
+            "err": {
+              "message": "Error: Field \"{\"name\":\"contraseña\"}\" was not found by text|CSS|XPath",
+              "estack": "Field \"{\"name\":\"contraseña\"}\" was not found by text|CSS|XPath\n\nScenario Steps:\n\n- I.fillField({\"name\":\"contraseña\"}, \"\") at Object.Iniciarsesion (src\\features\\Home\\Home.module.js:22:19)\n- I.fillField({\"name\":\"email\"}, \"mared20@gmail.com\") at Object.Iniciarsesion (src\\features\\Home\\Home.module.js:21:19)\n- I.click({\"id\":\"start\"}) at Object.Inicio (src\\features\\Home\\Home.module.js:16:19)\n- I.amOnPage(\"https://kambista.com/\") at Object.Inicio (src\\features\\Home\\Home.module.js:15:19)\n- I.amOnPage(\"/\") at Object.Constructor (src\\features\\Home\\Home.module.js:10:19)\n\n"
+            },
+            "isRoot": false,
+            "uuid": "9e71e0eb-eaec-4db7-bb72-83f707fa094e",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [
+          "ed12c3e8-cd14-4b66-b8a1-4dfe5ee57467",
+          "b4075e59-322c-40e8-b97f-2bd7e1006fc9",
+          "9e71e0eb-eaec-4db7-bb72-83f707fa094e"
+        ],
+        "pending": [],
+        "skipped": [],
+        "duration": 128953,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 0
+  },
+  "copyrightYear": 2019
+}
